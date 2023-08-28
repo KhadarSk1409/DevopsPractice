@@ -40,10 +40,10 @@
       </plugin>
 
       <plugin>
-        <artifactId>maven-release-plugin</artifactId>
-        <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
-        </configuration>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version> <!-- Update this version number -->
+        <!-- Other configuration parameters -->
       </plugin>
 
         </plugins>
